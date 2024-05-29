@@ -20,6 +20,7 @@ No run the Jar file using (java -jar C:\Users\Dell\Downloads\NimesaAssignment\Ni
 
 Access the application: Open a web browser or else open Postman to Hit API
 
+To access the Database, you can enter this connection String:-    mongodb+srv://ayush220802:4t2eKatCiHl9ni4J@cluster0.wcqudmc.mongodb.net
 
 API Documentation
 
