@@ -1,26 +1,40 @@
 SETUP INSTRUCTIONS:
 
-Clone the repository: git clone https://github.com/Er-Ayush/AWS-SDK-Integration.git
+   Clone the repository: git clone https://github.com/Er-Ayush/AWS-SDK-Integration.git
 
-Database is Already created on MongoDb cloud
+   Database is Already created on MongoDb cloud
+   
+   Navigate to the project directory: cd <project_directory>
+   
+   Build the project: mvn clean install -U
+   
+   then for AWS credentials, export them in the CLI using below commands:
+   
+   $env:AWS_ACCESS_KEY_ID=" "
+   
+   $env:AWS_SECRET_ACCESS_KEY=" "
 
-Navigate to the project directory: cd <project_directory>
+   // Inside the Double Quotes fill the acces key and secret Key
+   
+   No run the Jar file using (java -jar C:\Users\Dell\Downloads\NimesaAssignment\NimesaAssignment\target\NimesaAssignment-0.0.1-SNAPSHOT.jar)
+   
+   Access the application: Open a web browser or else open Postman to Hit API
+   
+   To access the Database, you can enter this connection String:-    mongodb+srv://ayush220802:4t2eKatCiHl9ni4J@cluster0.wcqudmc.mongodb.net
 
-Build the project: mvn clean install -U
+*************************************************************************************************
 
-then for AWS credentials, export them in the CLI using below commands:
+Versions Used
 
-$env:AWS_ACCESS_KEY_ID=" "
+   Spring Boot: 3.3.0
+   
+   Java : 17
+   
+   Maven: 3.6.3
+   
+   Amazon SDK : 2.20.20
 
-$env:AWS_SECRET_ACCESS_KEY=" "
-
-// Inside the Double Quotes fill the acces key and secret Key
-
-No run the Jar file using (java -jar C:\Users\Dell\Downloads\NimesaAssignment\NimesaAssignment\target\NimesaAssignment-0.0.1-SNAPSHOT.jar)
-
-Access the application: Open a web browser or else open Postman to Hit API
-
-To access the Database, you can enter this connection String:-    mongodb+srv://ayush220802:4t2eKatCiHl9ni4J@cluster0.wcqudmc.mongodb.net
+*************************************************************************************************
 
 API Documentation
 
