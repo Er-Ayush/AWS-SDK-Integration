@@ -14,16 +14,16 @@ public class AwsConfig {
     @Bean
     public Ec2Client ec2Client() {
         return Ec2Client.builder()
-                .region(Region.AP_SOUTH_1) // Specify your desired region
-                .credentialsProvider(EnvironmentVariableCredentialsProvider.create()) // Use default credentials provider
+                .region(Region.AP_SOUTH_1)
+                .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
                 .build();
     }
 
     @Bean
     public S3Client s3Client() {
         return S3Client.builder()
-                .region(Region.AP_SOUTH_1) // Specify your desired region
-                .credentialsProvider(EnvironmentVariableCredentialsProvider.create()) // Use default credentials provider
+                .region(Region.AP_SOUTH_1)
+                .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
                 .build();
     }
 }
